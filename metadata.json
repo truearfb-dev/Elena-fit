@@ -1,0 +1,5 @@
+{
+  "name": "FitAI Coach",
+  "description": "AI-powered fitness form analysis tool. Upload your workout video to receive instant feedback on technique, mistakes, and recommendations.",
+  "requestFramePermissions": []
+}
