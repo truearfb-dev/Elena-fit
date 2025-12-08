@@ -73,7 +73,7 @@ export const analyzeVideo = async (file: File): Promise<AnalysisResult> => {
       throw new Error("API Key is missing");
     }
 
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
     const videoPart = await fileToGenerativePart(file);
 
     const prompt = `
